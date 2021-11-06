@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/SystemIO/mslearn-dotnet-files/bin/Debug/net5.0/files-module.dll",
+            "program": "${workspaceFolder}/DotNetFIles/bin/Debug/net5.0/DotNetFiles.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/SystemIO/mslearn-dotnet-files",
+            "cwd": "${workspaceFolder}/DotNetFiles",
             "console": "internalConsole",
             "stopAtEntry": false
         },
