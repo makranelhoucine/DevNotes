@@ -1,0 +1,48 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SystemIO",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/SystemIO/mslearn-dotnet-files/bin/Debug/net5.0/files-module.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SystemIO/mslearn-dotnet-files",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "DotNetDebugging",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/DotNetDebugging/bin/Debug/net5.0/DotNetDebugging.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DotNetDebugging",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "DotNetDependencies",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/DotNetDependencies/bin/Debug/net5.0/DotNetDependencies.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DotNetDependencies",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
