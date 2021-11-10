@@ -7,7 +7,7 @@ namespace DotNetDebugging
     {
         static void Main(string[] args)
         {
-            int result = Fibonacci(6);
+            int result = Fibonacci(5);
             Console.WriteLine(result);
             Console.ReadKey(true);
         }
