@@ -34,7 +34,7 @@ namespace WiredBrainCoffeeCompany.Repositories
 
         public IEnumerable<T> GetAll()
         {
-            return _dbSet.ToList();
+            return _dbSet.OrderBy(el => el.Id).ToList();
         }
     }
 }

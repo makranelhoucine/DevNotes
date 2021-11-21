@@ -28,12 +28,7 @@ namespace WiredBrainCoffeeCompany.Repositories
         }
 
         public void Save()
-        {
-            foreach (var e in this._elements)
-            {
-                System.Console.WriteLine(e);
-            }
-            
+        {   
         }
 
         public IEnumerable<T> GetAll()
