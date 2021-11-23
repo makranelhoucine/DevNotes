@@ -14,9 +14,12 @@ namespace WiredBrainCoffeeCompany.Repositories
             this._dbSet = dbContext.Set<T>();
         }
 
+        public event EventHandler<T>? ElementAdded; // EventHandler è un delegate
+
         public void Add(T element)
         {
             this._dbSet.Add(element);
+            this.ElementAdded?.Invoke(this, element);
         }
 
         public void Remove(T element)

@@ -3,6 +3,9 @@ using WiredBrainCoffeeCompany.Entites;
 using WiredBrainCoffeeCompany.Repositories;
 
 var employeesRepository = new SqlRepository<Employee>(new WiredBrainCoffeeDbContext());
+
+employeesRepository.ElementAdded += EmployeesRepository_ElementAdded;
+
 AddEmployees(employeesRepository);
 AddManagers(employeesRepository);
 
@@ -24,6 +27,11 @@ void AddEmployees(IRepository<Employee> repository)
     };
 
     repository.AddBatch(employees);
+}
+
+void EmployeesRepository_ElementAdded(object? sender, Employee e)
+{
+    Console.WriteLine(e.Name + " added.");
 }
 
 void AddOrganizations(IRepository<Organization> repository)
