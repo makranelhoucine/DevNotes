@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Org.Messaging", "Org.Messaging\Org.Messaging.csproj", "{6F20B3A3-7D31-46C6-A615-7FC43D0C352E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Org.Extensions.Messaging", "Org.Extensions.Messaging\Org.Extensions.Messaging.csproj", "{C51E907A-D1B6-49CA-B196-F0CBE381F04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Org.Extensions.Environment", "Org.Extensions.Environment\Org.Extensions.Environment.csproj", "{8F31897F-3B35-4A73-97A0-8540703D2C1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{6F20B3A3-7D31-46C6-A615-7FC43D0C352E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F20B3A3-7D31-46C6-A615-7FC43D0C352E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F20B3A3-7D31-46C6-A615-7FC43D0C352E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51E907A-D1B6-49CA-B196-F0CBE381F04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51E907A-D1B6-49CA-B196-F0CBE381F04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51E907A-D1B6-49CA-B196-F0CBE381F04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51E907A-D1B6-49CA-B196-F0CBE381F04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F31897F-3B35-4A73-97A0-8540703D2C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F31897F-3B35-4A73-97A0-8540703D2C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F31897F-3B35-4A73-97A0-8540703D2C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F31897F-3B35-4A73-97A0-8540703D2C1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
